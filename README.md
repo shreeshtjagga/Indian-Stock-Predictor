@@ -1,50 +1,40 @@
-# 📈 Indian Stock Market Predictor (NSE)
+# Indian Stock Market Predictor (NSE)
 
-🔗 Live App: https://indian-stock-predictor.streamlit.app/
+Live App: https://indian-stock-predictor.streamlit.app/
 
-## 📌 Project Description
-The Indian Stock Market Predictor is a machine learning–based web application developed using Python and Streamlit. The project focuses on predicting the next NSE trading day price movement (UP or DOWN) and providing an estimated next-day price for selected Indian stocks.
+## Project Description
+The Indian Stock Market Predictor is a machine learning–based web application developed using Python and Streamlit. It predicts the next NSE trading day price movement (UP or DOWN) and provides an estimated next-day price for selected Indian stocks. The project demonstrates the application of machine learning and feature engineering on real-world financial data for educational purposes.
 
-The application fetches real-time and historical stock market data using the Yahoo Finance API and processes this data through feature engineering techniques such as moving averages and return calculations. A supervised machine learning model is then trained on historical data to identify patterns in price movements.
+## Why XGBoost
+XGBoost is used because it performs well on structured financial data, handles non-linear relationships efficiently, and provides reliable classification performance with probabilistic confidence scores. These properties make it suitable for short-term directional stock movement prediction.
 
-This project demonstrates how artificial intelligence and machine learning can be applied to financial markets for decision-support systems. It highlights concepts such as data preprocessing, feature engineering, classification algorithms, and performance optimization in a real-world financial domain.
+## Machine Learning Summary
 
-The goal of this project is educational—to understand how stock data can be analyzed programmatically and how predictive models can assist in market analysis, not to provide trading or investment advice.
+| Item | Description |
+|------|-------------|
+| Algorithm | XGBoost Classifier |
+| Learning Type | Supervised Learning |
+| Problem Type | Binary Classification (UP / DOWN) |
+| Data Source | Yahoo Finance (yfinance) |
 
-## 🧠 Machine Learning Used
-- Algorithm: XGBoost Classifier  
-- Learning Type: Supervised Machine Learning  
-- Problem Type: Binary Classification (Price UP / DOWN)  
-- Features Used: Open, High, Low, Close, Volume, SMA, EMA, Daily Returns  
-- Data Source: Yahoo Finance (yfinance)
+## Key Features
+- Next trading day direction prediction
+- Estimated next-day price
+- Confidence score
+- Indian market time handling
+- Weekend auto-handling
+- Streamlit-based web interface
 
-## 🚀 Features
-- Predicts next trading day stock direction  
-- Estimates next-day stock price  
-- Displays prediction confidence  
-- Uses Indian Standard Time (IST)  
-- Automatically handles weekends  
-- Optimized using Streamlit caching  
-- Deployed as an interactive web application  
+## Technologies
+Python, Streamlit, XGBoost, scikit-learn, Pandas, NumPy, yfinance
 
-## 🧰 Technologies
-- Python  
-- Streamlit  
-- XGBoost  
-- scikit-learn  
-- Pandas, NumPy  
-- yfinance  
-
-## 📂 Project Structure
-- app.py → Main Streamlit application  
-- requirements.txt → Python dependencies  
-- README.md → Project documentation  
-
-## ⚠️ Disclaimer
-This project is created strictly for educational and learning purposes. It does not provide financial, trading, or investment advice.
-
-##  To Clone this Resposiory
-git clone https://github.com/YOUR_USERNAME/indian-stock-predictor.git
+## Clone Repository
+git clone https://github.com/rayfin774/indian-stock-predictor.git  
 cd indian-stock-predictor
 
+## Disclaimer
+This project is for educational purposes only and does not provide financial or investment advice.
 
+## Author
+Shreesht  
+© 2025
