@@ -43,5 +43,8 @@ The goal of this project is educational—to understand how stock data can be an
 ## ⚠️ Disclaimer
 This project is created strictly for educational and learning purposes. It does not provide financial, trading, or investment advice.
 
-## 👤 Author
-Shreesht © 2025
+##  To Clone this Resposiory
+git clone https://github.com/YOUR_USERNAME/indian-stock-predictor.git
+cd indian-stock-predictor
+
+
