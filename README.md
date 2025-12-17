@@ -58,8 +58,13 @@ These properties make XGBoost suitable for **short-term directional stock predic
 
 ---
 
-## To Clone This Repository
+# Disclaimer
+- This project is for **Educational purposes** only and **does not provide financial or investment advice**. 
+- Sole puropse of the porject is to explain the XGBoost Framework to which provides both the **Regression Model (XGBRegressor)** and **Classification Model (XGBClassifer)**
+
+---
 
 ```bash
 git clone https://github.com/rayfin774/indian-stock-predictor.git
 cd indian-stock-predictor
+
