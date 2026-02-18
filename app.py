@@ -114,10 +114,10 @@ if st.button(" Predict NSE Stocks", type="primary"):
             avg_move = float(df["Return"].tail(20).abs().mean() * 100)
 
             if pred == 1:
-                direction = "UP 📈"
+                direction = "UP "
                 next_price = today_price * (1 + avg_move / 100)
             else:
-                direction = "DOWN 📉"
+                direction = "DOWN"
                 next_price = today_price * (1 - avg_move / 100)
 
             next_price = round(float(next_price), 2)
@@ -142,4 +142,5 @@ if st.button(" Predict NSE Stocks", type="primary"):
             st.warning("No valid predictions available")
 st.caption("**Educational project only. Not financial advice.**")
 st.caption(" ALL RIGHTS RESERVED TO **SHREESHT** 2025-2027")
+
 
