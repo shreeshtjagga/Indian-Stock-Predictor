@@ -63,7 +63,6 @@ def download_data(stock):
     )
     df.dropna(axis=1, how="all", inplace=True)
     return df
-@st.cache_resource
 def train_model(X, y, split):
     model = XGBClassifier(
         n_estimators=25,
@@ -142,5 +141,6 @@ if st.button(" Predict NSE Stocks", type="primary"):
             st.warning("No valid predictions available")
 st.caption("**Educational project only. Not financial advice.**")
 st.caption(" ALL RIGHTS RESERVED TO **SHREESHT** 2025-2027")
+
 
 
